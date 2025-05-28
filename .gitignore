@@ -1,0 +1,9 @@
+
+# Keep environment variables out of version control
+.env
+package.json
+
+node_modules/
+package-lock.json
+# Ignore build artifacts
+generated/prisma
