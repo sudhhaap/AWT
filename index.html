@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #aea5a5;
+        }
+        .calculator {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 300px;
+            height: 450px;
+            background-color: f0f0f0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .display {
+            width: 280px;
+            height: 80px;
+            background-color: #cccaca;
+            border-radius: 5px;
+            text-align: right;
+            font-size: 24px;
+            color: #a9a0a0;
+            margin-bottom: 10px;
+            padding: 1px;
+        } 
+        button{
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            margin: 5px;
+            border-radius: 5px;
+            border: none;
+            background-color: #d6cfce;
+            cursor: pointer;
+        }
+        .operator_button {
+            background-color: #f7a623;
+        }
+        .function_button {
+            background-color: #9b7e7a;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class ="calculator"> 
+        <div class="display"> display</div>
+        <div>
+            <button class="function_button">AC</button>
+            <button class="function_button">+/-</button>
+            <button class="function_button">%</button>
+            <button class="operator_button">/</button>
+        </div>
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator_button">*</button>
+        </div>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator_button">-</button>
+        </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator_button">+</button>
+        </div> 
+        <div>
+            <button class="function_button">C</button>
+            <button>0</button>
+            <button>. </button>
+            <button class="operator_button">=</button>
+        </div>
+    </div> 
+    </div>  
+
+</body>
+</html>
